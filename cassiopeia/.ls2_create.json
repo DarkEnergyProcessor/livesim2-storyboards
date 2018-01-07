@@ -1,0 +1,8 @@
+{
+	"name": "Cassiopeia (Inokashira-P)",
+	"scoreTapBase": 1102,
+	"staminaBase": 45,
+	"star": 9,
+	"songFile": "songFile.ogg",
+	"beatmap": "beatmap_json.json"
+}
