@@ -1,0 +1,31 @@
+{
+	"scoreTapBase": 1144,
+	"staminaBase": 40,
+	"star": 10,
+	"starRandom": 10,
+	"songFile": "songFile.ogg",
+	"beatmap": "beatmap.json",
+	"noteStyle": 2,
+	"additionalData": [
+		{
+			"name": "646Rinko-Shirokane-Cool-aChlO9.png",
+			"path": "646Rinko-Shirokane-Cool-aChlO9.png"
+		},
+		{
+			"name": "647Yukina-Minato-Cool-LY3Cbq.png",
+			"path": "647Yukina-Minato-Cool-LY3Cbq.png"
+		},
+		{
+			"name": "648Lisa-Imai-Happy-b2isLo.png",
+			"path": "648Lisa-Imai-Happy-b2isLo.png"
+		},
+		{
+			"name": "649Sayo-Hikawa-Power-Cppbqj.png",
+			"path": "649Sayo-Hikawa-Power-Cppbqj.png"
+		},
+		{
+			"name": "650Ako-Udagawa-Cool-khEW7J.png",
+			"path": "650Ako-Udagawa-Cool-khEW7J.png"
+		}
+	]
+}
