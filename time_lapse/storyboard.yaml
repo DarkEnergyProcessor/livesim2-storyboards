@@ -1,0 +1,705 @@
+---
+init:
+ - name: lyricsBlack
+   draw: text
+   x: 8
+   y: 592
+   red: 0
+   green: 0
+   blue: 0
+   font: __default:24
+ - name: lyricsWhite
+   draw: text
+   x: 6
+   y: 590
+   font: __default:24
+ - name: lyricsSmallBlack
+   draw: text
+   x: 7
+   y: 621
+   red: 0
+   green: 0
+   blue: 0
+   font: __default:16
+ - name: lyricsSmallWhite
+   draw: text
+   x: 6
+   y: 620
+   font: __default:16
+ - name: saaya
+   draw: image
+   image: 617Saaya-Yamabuki-Power-a3gTXJ.png
+ - name: tae
+   draw: image
+   image: 618Tae-Hanazono-Power-8bAHL2.png
+ - name: arisa
+   draw: image
+   image: 620Arisa-Ichigaya-Power-svPvYl.png
+ - name: rimi
+   draw: image
+   image: 616Rimi-Ushigome-Happy-sWiNjI.png
+ - name: kasumi
+   draw: image
+   image: 619Kasumi-Toyama-Pure-Utszgc.png
+
+skill:
+ - index: 2
+   type: healer
+   value: 2
+   chance: 0.4
+   draw: rimi
+   audio: comboStart_003_2.wav
+   rarity: ur
+   condition:
+     time: 14
+ - index: 4
+   type: score_up
+   value: 420
+   chance: 0.32
+   draw: kasumi
+   audio: comboStart_001_2.wav
+   rarity: sr
+   condition:
+     perfect: 20
+     emit: kasumi
+ - index: 5
+   type: tw++
+   value: 5
+   chance: 0.7
+   draw: tae
+   audio: comboStart_002_2.wav
+   rarity: ur
+   condition:
+     perfect: 29
+ - index: 6
+   type: tw++
+   value: 2.5
+   chance: 0.36
+   draw: arisa
+   audio: comboStart_005_2.wav
+   rarity: sr
+   condition:
+     notes: 31
+ - index: 8
+   type: score_up
+   value: 920
+   chance: 0.38
+   draw: saaya
+   audio: comboStart_004_3.wav
+   rarity: ur
+   condition:
+     notes: 40
+
+storyboard:
+ - time: 2.34375
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '陽が落ちて　歌声は星となり'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '陽が落ちて　歌声は星となり'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Hi ga ochite utagoe wa hoshi to nari'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Hi ga ochite utagoe wa hoshi to nari'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 7.34375
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '流れだす Time Lapse'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '流れだす Time Lapse'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Nagaredasu Time Lapse'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Nagaredasu Time Lapse'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 10.78125
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: 'そう　感じ続ける'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: 'そう　感じ続ける'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'So kanji tsudzukeru'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'So kanji tsudzukeru'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 15
+   do:
+   - type: set
+     target: lyricsBlack
+     alpha: tween 0 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: tween 0 in 300 ms
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 0 in 300 ms
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 0 in 300 ms
+ - time: 15.3
+   do:
+   - type: undraw
+     target: lyricsBlack
+   - type: undraw
+     target: lyricsWhite
+   - type: undraw
+     target: lyricsSmallBlack
+     alpha: tween 0 in 300 ms
+   - type: undraw
+     target: lyricsSmallWhite
+ - time: 37.65625
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '“止まれ”のサインが焦れったい　焦れったい'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '“止まれ”のサインが焦れったい　焦れったい'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: '"Tomare" no sain ga jirettai jirettai'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: '"Tomare" no sain ga jirettai jirettai'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 42.65625
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '感情のスピードが加熱する　加熱する'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '感情のスピードが加熱する　加熱する'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Kanjo no supido ga kanetsu suru kanetsu suru'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Kanjo no supido ga kanetsu suru kanetsu suru'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 47.65625
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: 'このへんで小休止かな？　そんな暇ないと'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: 'このへんで小休止かな？　そんな暇ないと'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Kono hen de shokyushi kana? Sonna himanai to'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Kono hen de shokyushi kana? Sonna himanai to'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 52.65625
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '夢見るハートが加速する　加速する'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '夢見るハートが加速する　加速する'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Yumemiru hato ga kasoku suru kasoku suru'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Yumemiru hato ga kasoku suru kasoku suru'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 57.5
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: 'Oh oh... Time Lapse Starry Sky'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: 'Oh oh... Time Lapse Starry Sky'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: ''
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: ''
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 62.65625
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '星は回り続けてる　キミも見たの？'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '星は回り続けてる　キミも見たの？'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Hoshi wa mawari tsudzuketeru kimi mo mita no?'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Hoshi wa mawari tsudzuketeru kimi mo mita no?'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 69.375
+   do:
+   - type: set
+     target: lyricsBlack
+     alpha: tween 0 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: tween 0 in 300 ms
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 0 in 300 ms
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 0 in 300 ms
+ - time: 69.675
+   do:
+   - type: undraw
+     target: lyricsBlack
+   - type: undraw
+     target: lyricsWhite
+   - type: undraw
+     target: lyricsSmallBlack
+     alpha: tween 0 in 300 ms
+   - type: undraw
+     target: lyricsSmallWhite
+ - time: 72.1875
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '微速度のエモーション　追いかけて'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '微速度のエモーション　追いかけて'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Bisokudo no emoshon oikakete'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Bisokudo no emoshon oikakete'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+   - type: emit
+     target: kasumi
+ - time: 77.265625
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '覚悟の物語を重ねて'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '覚悟の物語を重ねて'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Kakugo no monogatari wo kasanete'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Kakugo no monogatari wo kasanete'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 82.1875
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '歌声とトキメキが響きあい'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '歌声とトキメキが響きあい'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Utagoe to tokimeki ga hibiki ai'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Utagoe to tokimeki ga hibiki ai'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 87.34375
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '溢れだす Time Lapse'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '溢れだす Time Lapse'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Afuredasu Time Lapse'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Afuredasu Time Lapse'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 90.78125
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: 'もう抑えきれない'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: 'もう抑えきれない'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Mo osae kirenai'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Mo osae kirenai'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 95
+   do:
+   - type: set
+     target: lyricsBlack
+     alpha: tween 0 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: tween 0 in 300 ms
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 0 in 300 ms
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 0 in 300 ms
+ - time: 95.3
+   do:
+   - type: undraw
+     target: lyricsBlack
+   - type: undraw
+     target: lyricsWhite
+   - type: undraw
+     target: lyricsSmallBlack
+     alpha: tween 0 in 300 ms
+   - type: undraw
+     target: lyricsSmallWhite
+ - time: 109.84375
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '陽が落ちて　歌声は星となり'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '陽が落ちて　歌声は星となり'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Hi ga ochite utagoe wa hoshi to nari'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Hi ga ochite utagoe wa hoshi to nari'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 114.84375
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: '流れだす Time Lapse'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: '流れだす Time Lapse'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'Nagaredasu Time Lapse'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'Nagaredasu Time Lapse'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 118.28125
+   do:
+   - type: draw
+     target: lyricsBlack
+     alpha: 0
+     text: 'そう　感じ続ける'
+   - type: set
+     target: lyricsBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: 0
+     text: 'そう　感じ続ける'
+   - type: set
+     target: lyricsWhite
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallBlack
+     alpha: 0
+     text: 'So kanji tsudzukeru'
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 255 in 300 ms
+   - type: draw
+     target: lyricsSmallWhite
+     alpha: 0
+     text: 'So kanji tsudzukeru'
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 255 in 300 ms
+ - time: 122.5
+   do:
+   - type: set
+     target: lyricsBlack
+     alpha: tween 0 in 300 ms
+   - type: draw
+     target: lyricsWhite
+     alpha: tween 0 in 300 ms
+   - type: set
+     target: lyricsSmallBlack
+     alpha: tween 0 in 300 ms
+   - type: set
+     target: lyricsSmallWhite
+     alpha: tween 0 in 300 ms
+ - time: 122.8
+   do:
+   - type: undraw
+     target: lyricsBlack
+   - type: undraw
+     target: lyricsWhite
+   - type: undraw
+     target: lyricsSmallBlack
+     alpha: tween 0 in 300 ms
+   - type: undraw
+     target: lyricsSmallWhite
