@@ -1,0 +1,78 @@
+---
+title: Time Lapse
+artist: Poppin'Party
+source: BanG Dream
+composers:
+ - [Lyrics, Nakamura Kou]
+ - [Arrangement, Agematsu Noriyasu]
+ - [Composition, Fujita Junpei]
+audio: songFile.mp3
+artwork: '.jpg'
+tags: bandori bang dream popipa
+beatmaps:
+ - difficulty-name: Hard
+   star: 8
+   star-random: 9
+   custom-unit-list:
+   - position: 1
+     unit-filename: dummy.png
+   - position: 2
+     unit-filename: unit_pos_2.png
+   - position: 3
+     unit-filename: dummy.png
+   - position: 4
+     unit-filename: unit_pos_4.png
+   - position: 5
+     unit-filename: unit_pos_5.png
+   - position: 6
+     unit-filename: unit_pos_6.png
+   - position: 7
+     unit-filename: dummy.png
+   - position: 8
+     unit-filename: unit_pos_8.png
+   - position: 9
+     unit-filename: dummy.png
+   score-rank: [60690, 151725, 182070, 212415]
+   combo-rank: [108, 179, 250, 357]
+   beatmap-file: beatmap-hard.json
+ - difficulty-name: Expert
+   star: 10
+   star-random: 10
+   custom-unit-list:
+   - position: 1
+     unit-filename: dummy.png
+   - position: 2
+     unit-filename: unit_pos_2.png
+   - position: 3
+     unit-filename: dummy.png
+   - position: 4
+     unit-filename: unit_pos_4.png
+   - position: 5
+     unit-filename: unit_pos_5.png
+   - position: 6
+     unit-filename: unit_pos_6.png
+   - position: 7
+     unit-filename: dummy.png
+   - position: 8
+     unit-filename: unit_pos_8.png
+   - position: 9
+     unit-filename: dummy.png
+   score-rank: [110353, 276144, 331059, 386497]
+   combo-rank: [157, 262, 367, 523]
+   beatmap-file: beatmap.json
+additional-files:
+ - '616Rimi-Ushigome-Happy-sWiNjI.png'
+ - '617Saaya-Yamabuki-Power-a3gTXJ.png'
+ - '618Tae-Hanazono-Power-8bAHL2.png'
+ - '619Kasumi-Toyama-Pure-Utszgc.png'
+ - '620Arisa-Ichigaya-Power-svPvYl.png'
+ - name: __midi
+   file: beatmap.mid
+ - 'comboStart_001_2.wav'
+ - 'comboStart_002_2.wav'
+ - 'comboStart_003_2.wav'
+ - 'comboStart_004_3.wav'
+ - 'comboStart_005_2.wav'
+ - 'storyboard.yaml'
+ - 'lyrics.srt'
+ - 'live_clear.wav'

@@ -1,0 +1,54 @@
+{
+	"scoreTapBase": 1208,
+	"staminaBase": 40,
+	"star": 10,
+	"starRandom": 10,
+	"songFile": "songFile.mp3",
+	"beatmap": "beatmap.json",
+	"additionalData": [
+		{
+			"name": "616Rimi-Ushigome-Happy-sWiNjI.png",
+			"path": "616Rimi-Ushigome-Happy-sWiNjI.png"
+		},
+		{
+			"name": "617Saaya-Yamabuki-Power-a3gTXJ.png",
+			"path": "617Saaya-Yamabuki-Power-a3gTXJ.png"
+		},
+		{
+			"name": "618Tae-Hanazono-Power-8bAHL2.png",
+			"path": "618Tae-Hanazono-Power-8bAHL2.png"
+		},
+		{
+			"name": "619Kasumi-Toyama-Pure-Utszgc.png",
+			"path": "619Kasumi-Toyama-Pure-Utszgc.png"
+		},
+		{
+			"name": "620Arisa-Ichigaya-Power-svPvYl.png",
+			"path": "620Arisa-Ichigaya-Power-svPvYl.png"
+		},
+		{
+			"name": "__midi",
+			"path": "beatmap.mid"
+		},
+		{
+			"name": "comboStart_001_2.wav",
+			"path": "comboStart_001_2.wav"
+		},
+		{
+			"name": "comboStart_002_2.wav",
+			"path": "comboStart_002_2.wav"
+		},
+		{
+			"name": "comboStart_003_2.wav",
+			"path": "comboStart_003_2.wav"
+		},
+		{
+			"name": "comboStart_004_3.wav",
+			"path": "comboStart_004_3.wav"
+		},
+		{
+			"name": "comboStart_005_2.wav",
+			"path": "comboStart_005_2.wav"
+		}
+	]
+}
